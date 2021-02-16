@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+     <link rel="shortcut icon" href="img/favicon.ico" type="image/ico">
+	<meta name="viewport" content="width=device-width">
+	<title>Сервисный центр Miele в Киеве - ремонт бытовой техники</title>
+<!--   Шрифти  --> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<!-- стилі будстрапа -->
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<!-- мої стилі -->
+<style>
+  body {
+  font-family: 'Noto Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+   background-color: #fff;
+}
+ .__bodynoscroll {
+   overflow: hidden;
+}
+.container1{
+  width: 90%;
+  margin: 0 auto;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "Oswald", sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 3.5px;
+   color: #fff;
+}
+}
+ p {
+   color: #fff;
+}
+ h1 {
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+h2{ 
+   font-size: 20px;
+   
+}
+ @media (min-width: 768px) {
+   h1 {
+     font-size: 25px;
+  }
+  h2{ 
+   font-size: 25px;
+   
+}
+}
+ @media (min-width: 1200px) {
+   h1 {
+     font-size: 30px;
+  }
+  h2{ 
+   font-size: 30px;
+   
+}
+}
+ h4 {
+   font-size: 20px;
+}
+ @media (min-width: 768px) {
+   h4 {
+     font-size: 22px;
+  }
+}
+ @media (min-width: 1200px) {
+   h4 {
+     font-size: 24px;
+  }
+}
+ p, span, a, label, input, button, li {
+   font-family: "Oswald", sans-serif;
+   letter-spacing: 2px;
+}
+ .usercontent h1 {
+   font-size: 20px;
+   margin-bottom: 35px;
+}
+ @media (min-width: 768px) {
+   .usercontent h1 {
+     font-size: 25px;
+  }
+}
+ @media (min-width: 1200px) {
+   .usercontent h1 {
+     font-size: 30px;
+  }
+}
+ .usercontent h2 {
+   font-size: 26px;
+   margin-bottom: 15px;
+   text-transform: uppercase;
+   margin-bottom: 25px;
+}
+ @media (min-width: 768px) {
+   .usercontent h2 {
+     font-size: 34px;
+  }
+}
+ @media (min-width: 1200px) {
+   .usercontent h2 {
+     font-size: 36px;
+  }
+}
+ .usercontent h3 {
+   font-size: 18px;
+   margin-bottom: 15px;
+   text-transform: none;
+   margin-bottom: 10px;
+}
+ @media (min-width: 768px) {
+   .usercontent h3 {
+     font-size: 20px;
+  }
+}
+ @media (min-width: 1200px) {
+   .usercontent h3 {
+     font-size: 20px;
+  }
+}
+ .usercontent p {
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+ @media (min-width: 992px) {
+   .usercontent p {
+     font-size: 16px;
+  }
+}
+ .wrapper {
+   position: relative;
+   margin-top: 0;
+   transition: all 1s ease;
+   overflow-x: hidden;
+background-color: #FBFBFB;
+}
+/* Variables */
+ .wrapper {
+   postion: relative;
+}
+ .header {
+  color:  white;
+   padding: 0 15px;
+   position: fixed;
+   background-color: black;
+   top: 0;
+   width: 100%;
+   height: auto;
+   left: 0;
+   transition: all 0.3s ease;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 999;
+}
+ @media (min-width: 992px) {
+   .header {
+     background-color: black;
+    
+  }
+}
+ .header:hover, .header:focus {
+   background-color: black;
+}
+ @media (min-width: 992px) {
+   .header:hover .header-nav ul li a, .header:focus .header-nav ul li a {
+     color: white;
+  }
+}
+ .header-image {
+   width: 180px;
+}
+ .header-image img {
+   width: 100%;
+}
+ .header-nav {
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   right: -100%;
+   top: 70px;
+   background-color: black;
+   transition: all 0.4s ease;
+}
+ .header-nav.__active {
+  overflow-y: scroll;/*//////*/
+   right: 0;
+}
+ @media (min-width: 992px) {
+   .header-nav.__active {
+     right: auto;
+  }
+}
+ @media (min-width: 992px) {
+   .header-nav {
+     position: relative;
+     right: auto;
+     top: auto;
+     background-color: black;
+     width: auto;
+     height: 70px;
+  }
+}
+ .header-nav ul {
+   width: auto;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+ @media (min-width: 992px) {
+   .header-nav ul {
+     align-items: center;
+     flex-direction: row;
+  }
+}
+ .header-nav ul li {
+   height: auto;
+   display: flex;
+   position: relative;
+   flex-direction: column;
+}
+ @media (min-width: 992px) {
+   .header-nav ul li {
+     flex-direction: row;
+     height: 70px;
+     align-items: center;
+  }
+   .header-nav ul li:hover > a::before, .header-nav ul li:focus > a::before {
+     width: 100%;
+  }
+}
+ .header-nav ul li a {
+   position: relative;
+}
+ .header-nav ul li a::before {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0%;
+   height: 2px;
+   background-color: #fff;
+   transition: all 0.4s ease;
+}
+ .header-nav ul li a.__active::before {
+   width: 100%;
+}
+ @media (min-width: 992px) {
+   .header-nav ul li.megamenu:hover ul, .header-nav ul li.megamenu:focus ul {
+     display: flex;
+  }
+}
+ .header-nav ul li.megamenu ul {
+   width: 100%;
+   height: auto;
+   left: 0%;
+   margin: 0;
+   justify-content: space-around;
+   align-items: flex-start;
+   background-color: black;
+   display: none;
+   padding-left: 15px;
+}
+ @media (min-width: 992px) {
+   .header-nav ul li.megamenu ul {
+     padding: 15px 0;
+     top: 70px;
+     position: fixed;
+     display: none;
+  }
+}
+ .header-nav ul li.megamenu ul li {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   height: auto;
+}
+ @media (min-width: 992px) {
+   .header-nav ul li.megamenu ul li {
+     height: 100%;
+  }
+}
+ .header-nav ul li.megamenu ul li a {
+   color: white;
+   transition: all 0.3s ease;
+   text-transform: uppercase;
+   height: 70px;
+   width: 100%;
+}
+ @media (min-width: 992px) {
+   .header-nav ul li.megamenu ul li a {
+     margin-bottom: 20px;
+     height: 100%;
+     width: auto;
+  }
+}
+ .header-nav ul li.megamenu ul li a:hover, .header-nav ul li.megamenu ul li a:focus {
+   color: red;
+}
+ .header-nav ul li.megamenu ul li a::before {
+   content: none;
+}
+ .header-nav ul li.megamenu ul li ul {
+   position: relative;
+   height: auto;
+   margin: 0;
+   bottom: auto;
+   left: auto;
+   top: auto;
+   display: none;
+   padding-left: 30px;
+}
+ @media (min-width: 992px) {
+   .header-nav ul li.megamenu ul li ul {
+     justify-content: flex-start;
+     flex-direction: column;
+     display: flex;
+     padding: 0;
+  }
+}
+ .header-nav ul li.megamenu ul li ul li {
+   width: 100%;
+}
+ @media (min-width: 992px) {
+   .header-nav ul li.megamenu ul li ul li {
+     margin-bottom: 15px;
+  }
+   .header-nav ul li.megamenu ul li ul li:last-of-type {
+     margin-bottom: 0;
+  }
+}
+ .header-nav ul li.megamenu ul li ul li a {
+   width: 100%;
+   font-size: 12px;
+}
+ @media (min-width: 992px) {
+   .header-nav ul li.megamenu ul li ul li a {
+     margin-bottom: 0;
+  }
+}
+ .header-nav ul li a {
+   padding: 0 20px;
+   height: 70px;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 16px;
+   display: flex;
+   align-items: center;
+   text-transform: uppercase;
+   position: relative;
+}
+ @media (min-width: 992px) {
+   .header-nav ul li a {
+     color: white;
+  }
+}
+ @media (min-width: 992px) {
+   .header-nav ul li a:hover::before, .header-nav ul li a:focus::before {
+     width: 100%;
+  }
+}
+ .header-nav ul li a::before {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transition: all 0.4s ease;
+   width: 0%;
+   height: 2px;
+   background-color: black;
+}
+ .header-aux {
+   display: none;
+}
+ @media (min-width: 992px) {
+   .header-aux {
+     display: block;
+  }
+}
+ .header-aux svg {
+   width: 30px;
+   height: 30px;
+}
+ .header-burger {
+   width: auto;
+   cursor: pointer;
+   height: 70px;
+   background-color: coral;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   outline: none;
+   background-color: black;
+}
+ @media (min-width: 992px) {
+   .header-burger {
+     display: none;
+  }
+}
+ .header-burger:focus {
+   outline: none;
+}
+ .header-burger.__active span {
+   background-color: transparent;
+}
+ .header-burger.__active span::before {
+   top: -2px;
+   transform: rotate(45deg);
+}
+ .header-burger.__active span::after {
+   top: -1px;
+   transform: rotate(135deg);
+}
+ .header-burger span {
+   width: 30px;
+   height: 3px;
+   background-color: white;
+   position: relative;
+}
+ .header-burger span::before {
+   content: "";
+   position: absolute;
+   top: -10px;
+   left: 0;
+   width: 30px;
+   height: 3px;
+   background-color: white;
+   transition: all 0.3s ease;
+}
+ .header-burger span::after {
+   content: "";
+   position: absolute;
+   top: 10px;
+   left: 0;
+   width: 30px;
+   height: 3px;
+   background-color: white;
+   transition: all 0.3s ease;
+}
+ .banner {
+   width: 100%;
+   height: 100vh;
+   position: relative;
+}
+ @media (min-width: 992px) {
+   .banner {
+     height: 750px;
+  }
+}
+ .banner-image {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+ .banner-image img, {
+   width: 100%;
+   width: 100%;
+   height: 100%;
+}
+
+/*style--------------------------------------------------------*/ 
+
+
+/*block 1--------------------------------------------------------*/ 
+.block1{
+padding: 90px 0px;
+border-color: #FBFBFB;
+}
+.block1__img__one{
+  background-color: #fff;
+}
+.block1__img__two{
+  height: 100%;
+   background: url(img/contact-fone.png) no-repeat   ;
+}
+
+ .block1__img__two .cart{
+  background-color: rgba(0, 0, 0, 0.5);
+ }
+.blok1_text h2 {
+  color: black;
+}
+
+ .column-1{
+  width: 20%;
+ }
+ .column-1{
+  width: 80%;
+ }
+
+.column-3{
+  width: 100%;
+ }
+/*block 2--------------------------------------------------------*/ 
+
+.blok2__form{
+box-shadow: 5px 5px 18px rgba(0,0,0,0.5);
+}
+
+.blok2__list ul{
+  list-style: none; 
+}
+
+
+/*btn style---------------------------------------*/
+.br_light{
+  border: 2px solid white;
+
+}
+.br_darck{
+  border: 2px solid black;
+}
+.h_l:hover{
+   background-color: rgba(0,0,0,0.0);
+   color: white;
+
+}
+.h_d:hover{
+   background-color: rgba(0,0,0,0.5);
+   color: black;
+
+}
+.h_light:hover{
+   background-color:white;
+   color: black;
+}
+.h_black:hover{
+   background-color:black;
+   color: white;
+}
+.h_gray:hover{
+   background-color:#999999;
+   
+}
+.bg_white{
+  background-color:white; 
+}
+.bg_black{
+  background-color:black; 
+}
+.bg_gray{
+  background-color:#c3c3c3; 
+}
+.t_black{
+color: black;
+}
+.t_white{
+color: white;
+}
+
+
+/*block__form start---------------------------------------------------*/
+.b-container{
+    width:200px;
+    height:150px;
+    background-color: #ccc;
+    margin:0px auto;
+    padding:10px;
+    font-size:30px;
+    color: #fff;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:100%;
+    height: 100%;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+    margin-top: 100px ;
+}
+@media(min-width:769px ){
+.b-popup .b-popup-content{
+    width:100%;  
+}
+}
+@media(min-width:1025px ){
+.b-popup .b-popup-content{
+    width:70%;  
+}
+}
+@media(min-width:1440px ){
+.b-popup .b-popup-content{
+ 
+    width:50%;  
+}
+}
+/*block__form end---------------------------------------------------*/
+/*block__2 start---------------------------------------------------*/
+
+/*block__7start---------------------------------------------------*/
+.block7{
+  background-color: #000; 
+
+}
+.block7__content{
+padding-top: 50px;
+color: white;
+font-size:14px;
+}
+
+.block7__title p{
+ padding-top: 20px;
+  font-size: 20px;
+}
+.hr_white{
+  background-color:;
+  height:   1px;
+}
+.footer__img img{
+  height: 80px;  
+  width:  200px;
+}
+.footer__img {
+padding:  0px 0px 20px 0px;
+}
+
+.block7__list{
+  padding:  20px 0px 0px 0px ;
+  line-height: 25px;
+}
+.block7__list ul{
+  list-style: none; 
+}
+.block7__list ul a{
+ text-decoration :  none  ;
+ color:   white;
+}
+.block7__list ul li img{
+margin: 0px 10px 0px 0px ;
+}
+.block7__list ul a:hover {
+color: red;
+}
+
+.footer__end__text{
+  padding: 20px 0px;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="header">
+    <div class="header-image">
+        <a href="index.html">
+      <img src="img/Miele_logo.png" />
+      </a>
+    </div>
+    <div class="header-nav">
+      <ul>
+       
+        <li><a href="index.html">ГЛАВНАЯ</a></li>
+        <li><a href="o_nas.html">О Нас</a></li>
+         <li class="megamenu">
+          <a href="#nogo">СЕРВИС Miele</a>
+           <ul class="megamenu-levelone">
+            <li>
+              <a class="hi" href="#nogo">Для кухни</a>
+              <ul class="megamenu-leveltwo">
+                <li><a href="remont-holodilnikov.html">Ремонт холодильников Miele</a></li>
+                <li><a href="remont-kofemashin-kofevarok.html">Ремонт кофемашин Miele</a></li>
+                <li><a href="remont-posydomoechnih-mashin.html">Ремонт посудомоечных машин Miele</a></li>
+                <li><a href="remont-vinnyh-shkafov.html">Ремонт винных шкафов Miele</a></li>
+                <li><a href="remont-duhovyh-shkafov.html">Ремонт духовых шкафов Miele</a></li>
+                <li><a href="remont-mikrovolnovyh-pechej.html">Ремонт микроволновых печей Miele</a></li>
+                <li><a href="remont-parovarok.html">Ремонт пароварок Miele</a></li>
+                <li><a href="remont-vytyazhek.html">Ремонт вытяжек Miele</a></li>
+                <li><a href="remont-varochnyh-poverhnostej.html">Ремонт варочных поверхностей Miele</a></li>
+              </ul>
+            </li>
+                <li>
+              <a class="hi" href="#nogo">Для ванной комнаты</a>
+              <ul class="megamenu-leveltwo">
+                <li><a href="remont-stiralnyh-mashin.html">Ремонт стиральных машин Miele</a></li>
+                <li><a href="remont-sushilnyh-mashin.html">Ремонт сушильных машин Miele</a></li>
+                 <li><a href="remont-gladilni-mashin.html">Ремонт ГЛАДИЛЬНЫХ МАШИН Miele</a></li>
+                
+              </ul>
+            </li>
+        
+          
+          </ul>
+        </li>
+        <li><a href="garantia.html">Гарантия</a></li>
+        <li><a href="kontakt.html">КОНТАКТЫ</a></li>
+
+    
+      </ul>
+    </div>
+    <button class="header-burger">
+      <span></span>
+    </button>
+    
+  </div>
+  <!-- --------------------------------block1--------------------------------- -->
+
+
+  <div class="block1">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-8 col-md-12 ">
+
+          <div>
+            <h1 class="t_black pb-4">Ремонт варочных поверхностей MIELE</h1>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-12  block1__img__one">
+              <img src="img/varochnie-paneli.jpeg" width="100%" height="100%" alt="">
+            </div>
+
+            <div class=" col-lg-9 col-md-12">
+              <div class="row block1__img__two">
+
+                <div class=" cart col-lg-4 col-md-12 ">
+                  <div  class="text-center my-3 " >
+                  <img src="img/dilivery.png" width="70px" height="70px" alt="">
+                  </div>
+                  <div>
+                    <p class=" text-center font-weight-bold t_white">Срочный выездной ремонт</p>
+                  </div>
+
+                </div>
+
+                <div class=" cart col-lg-4 col-md-12 ">
+                 <div  class="text-center my-3 " >
+                  <img src="img/loading.png" width="70px" height="70px" alt="">
+                  </div>
+                  <div>
+                    <p class=" text-center font-weight-bold t_white">Бесплатная диагностика</p>
+                  </div>
+                </div>
+
+                <div class=" cart col-lg-4 col-md-12 ">
+                 <div  class="text-center my-3 " >
+                  <img src="img/garant.png" width="70px" height="70px" alt="">
+                  </div>
+                  <div>
+                    <p class=" text-center font-weight-bold t_white">Оригинальные детали и гарантия</p>
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+
+
+          <div class="row pt-5 pb-3">
+
+            <div class="col-md-12 col-lg-8">
+              <p><i>
+      Необходима бесплатная консультация или желаете оформить заявку? Оставьте свои контакты — и мы свяжемся с Вами в ближайшее время!
+    </i></p>
+              
+            </div>
+
+             <div class="col-md-12 col-lg-4">
+
+             <div class="">
+              <a href="javascript:PopUpShow()" class="d-flex justify-content-center text-uppercase btn font-weight-bold h_black  br_darck bg_white">Заявка на ремонт</a>
+              </div>
+              
+            </div>
+            
+          </div>
+
+          <div class="table col-md-12 col-lg-12">
+            <table >
+<thead>
+<tr class="row-1 text-white bg-dark">
+  <th class="column-1 ">Наименование услуги</th><th class="column-2">Цена, грн.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-2">
+  <td class="column-1">Вызов мастера</td><td class="column-2">Бесплатно**</td>
+</tr>
+<tr class="row-3">
+  <td class="column-1">Диагностика </td><td class="column-2">Бесплатно**</td>
+</tr>
+<tr class="row-4">
+  <td class="column-1">Вызов мастера за Киев</td><td class="column-2">20 грн. за каждый км.</td>
+</tr>
+<tr class="row-5">
+  <td class="column-1">Смена питающего кабеля </td><td class="column-2">от 270 грн. </td>
+</tr>
+<tr class="row-6">
+  <td class="column-1">Смена клеммной коробки </td><td class="column-2">от 290 грн. </td>
+</tr>
+<tr class="row-7">
+  <td class="column-1">Смена модуля управления </td><td class="column-2">от 320 грн. </td>
+</tr>
+<tr class="row-8">
+  <td class="column-1">Ремонт модуля управления </td><td class="column-2">от 550 грн. </td>
+</tr>
+<tr class="row-9">
+  <td class="column-1">Смена электроконфороки </td><td class="column-2">от 370 грн. </td>
+</tr>
+<tr class="row-10">
+  <td class="column-1">Смена регулятора режимов конфорки </td><td class="column-2">от 280 грн. </td>
+</tr>
+<tr class="row-11">
+  <td class="column-1">Восстановление электропроводки </td><td class="column-2">от 320 грн. </td>
+</tr>
+<tr class="row-12">
+  <td class="column-1">Смена сигнальной лампы </td><td class="column-2">от 220 грн. </td>
+</tr>
+<tr class="row-13">
+  <td class="column-1">Смена трансформатора зажигания, термостата, температурного датчика</td><td class="column-2">от 480 грн</td>
+</tr>
+<tr class="row-14">
+  <td colspan="2" class="column-1">* Цена указана без стоимости запчастей для города Киева</td>
+</tr>
+<tr class="row-15">
+  <td colspan="2" class="column-1">**Вызов мастера и диагностика являются бесплатными при условии ремонта. Оплачиваются только работа и соответствующие запчасти. В случае, если заказчик отказывается от ремонта, вызов и диагностика являются платными и оплачиваются заказчиком в размере 200 грн.</td>
+</tr>
+</tbody>
+</table>
+
+          </div>
+
+
+
+
+
+
+
+
+<div class="blok1_text col-md-12 col-lg-12"> 
+<p>Ремонт поверхностей Miele считается одной из наиболее востребованных процедур в рамках работы специализированного сервисного центра. Варочные поверхности прочно вошли в жизнь современных хозяек. Их привлекательный внешний вид, функциональность и минимум занимаемой площади делает данные аппараты намного более популярными, чем классические варианты печей. Именно поэтому возрастает и потребность в квалифицированном и грамотном ремонте данного оборудования.</p>
+<p>Компания Miele предлагает своим покупателям надежные и проверенные временем варочные поверхности, отличающиеся стабильностью работы и функциональностью. Однако, даже столь качественные аппараты время от времени требуют ремонта.</p>
+<h2 >Линейки и модели варочных поверхностей от Miele</h2>
+<p>На сегодняшний день среди предложений компании варочные поверхности следующего типа:</p>
+<ul>
+<li>электрические;</li>
+<li>газовые.</li>
+</ul>
+<p>Они отличаются как по размерам, так и по форме и материалам изготовления.</p>
+<p>Распространенными являются панели из:</p>
+<ul>
+<li>нержавейки;</li>
+<li>стекла;</li>
+<li>эмалированных материалов.</li>
+</ul>
+<p>Наиболее востребованными моделями являются:</p>
+<ul>
+<li>газовые: с поверхностью из нержавеющей стали &#8211; P1641XT, SR84P, PGF75-4, со стеклянной и стеклокерамической поверхностью &#8211; PV175S-1, PV664LCNR;</li>
+<li>электрические: SE332EB, SE2664TC2.</li>
+</ul>
+<p>Ремонт варочных поверхностей Miele мастерами сервисного центра производится вне зависимости от типа, функционала и характеристик. Эксперты сервиса отлично знакомы со всеми предложениями бренда, а также особенностями и нюансами конструкции. Именно поэтому ремонт варочной панели Miele осуществляется в кратчайшие сроки с гарантией качества.</p>
+<h2 ">Неполадки, с которыми могут столкнуться владельцы варочных поверхностей от компании Miele</h2>
+<p>Чаще всего вызов мастеров сервисного центра владельцами газовых поверхностей обусловлен следующими неполадками:</p>
+<ul>
+<li>горелки выключаются после того, как ручка отпускается – причиной становится износ системы или газового крана, деформация поверхности или засорение форсунок;</li>
+<li>выход из строя функции электроподжига – в этом случае могут быть окислены контакты кнопок или перегорел блок поджига;</li>
+<li>газ горит очень слабо либо горелка вовсе не зажигается – часто подобная ситуация встречается при длительном отсутствии обслуживания поверхности, форсунки могут забиваться бытовыми отходами или продуктами питания;</li>
+<li>клинит газовый гран – в этом случае нужно срочно отключить газ и обратиться к мастерам.</li>
+</ul>
+<p>Среди проблем, которые встречаются с электрическими варочными поверхностями, следующие:</p>
+<ul>
+<li>самовольное отключение после нескольких минут работы – в этом случае причиной становится перегревание сенсора управляющей платы или выход из строя нагревательного реле;</li>
+<li>конфорка не нагревается при включении вообще – среди возможных причин: обрыв цепи или перегорание переключателя режимов.</li>
+</ul>
+<p>Примечательно что варочные поверхности от Miele одновременно высокотехнологичные и довольно сложные конструктивно аппараты. Именно поэтому их самостоятельный ремонт недопустим.</p>
+<h2">Помощь экспертов</h2>
+<p>Ремонт варочных панелей Miele от профессионалов Сервис Miele &#8211; это лучшее решение для владельцев оборудования. Доверяйте тем, кто знает свое дело и наслаждайтесь работоспособностью оборудования.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- -----------------------text--------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+        </div>
+
+
+
+<!-- block two-------------------------------------------------------------------------------------------- -->
+
+
+          <div class="col-lg-4 col-md-12 ">
+            <div class="blok2__form bg-white col-lg-12 col-md-12">
+  <form class="row " action= "post.php" method= "POST">
+          <div class="d-flex justify-content-center font-weight-bold col-lg-12 col-md-12 my-3"><p class="text-uppercase">Вызвать мастера</p></div>
+         
+
+  <div class="form-group col-md-12 col-lg-12 mb-3">
+    <input type="text" name="name" class="form-control" id="" aria-describedby="emailHelp" placeholder="Ваше Имя*">
+  </div>
+
+   <div class="form-group col-md-12 col-lg-12 mb-3">
+    <input type="phone" name="tell" class="form-control" id="" aria-describedby="emailHelp" placeholder="Телефон*">
+  </div>
+  
+
+  <div class="form-group col-lg-12 col-md-12">
+    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="4" placeholder="Опишите Вашу неисправность*"></textarea>
+
+  </div>
+
+
+
+  <div class="col-lg-12 col-md-12 d-flex justify-content-center pb-3"> 
+    
+    <input type= "submit" class="btn mt-3 font-weight-bold br_darck t_white h_light bg_black text-uppercase" name="submit5" value= "Отправить"> 
+</div>
+
+</form>
+</div>
+
+<div class="blok2__list">
+
+        <div class="d-flex justify-content-center font-weight-bold col-lg-12 col-md-12 mt-5 mb-3"><p class="text-uppercase">
+    Все категории ремонта:
+  </p></div>
+
+     <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-holodilnikov.html">Ремонт холодильников Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-kofemashin-kofevarok.html">Ремонт кофемашин Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-posydomoechnih-mashin.html">Ремонт посудомоечных машин Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-vinnyh-shkafov.html">Ремонт винных шкафов Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-duhovyh-shkafov.html">Ремонт духовых шкафов Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-mikrovolnovyh-pechej.html">Ремонт микроволновых печей Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-parovarok.html">Ремонт пароварок Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-vytyazhek.html">Ремонт вытяжек Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-varochnyh-poverhnostej.html">Ремонт варочных поверхностей Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-stiralnyh-mashin.html">Ремонт стиральных машин Miele</a>
+                <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-sushilnyh-mashin.html">Ремонт сушильных машин Miele</a>
+                  <a class="d-flex justify-content-center btn font-weight-bold h_gray bg_gray my-2" href="remont-gladilni-mashin.html">Ремонт гладильных машин Miele</a>
+
+
+
+
+
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+  </div>
+  
+
+
+
+</div>
+
+
+<!-- --------------------------------footer--------------------------------- -->
+
+<footer>
+<div class="block7">
+    <div class="container">
+        <div class=" block7__content"  >
+            <div class="row footer__container">
+
+
+<div class="col-md-4 col-sm-12">
+                    <div class="  footer__img">   
+                    <img src="img/Miele_logo.png"  alt="">
+                    </div>
+                    <p class="t_white">Сервисный центр по ремонту техники MIELE предлагает свою помощь всем тем, кто столкнулся с отклонениями в работе техники или же полным выходом из строя оборудования. Команда профессиональных мастеров готова в кратчайшие сроки после получения заявки выехать на дом к владельцу и решить на месте все возникающие вопросы.</p>
+                </div>
+
+
+<div class="col-md-4 col-sm-12">
+                      
+                    <div class="block7__title">
+                        <p class="font-weight-bold t_white">Сервис MIELE</p>
+                        <div class="hr_white bg-white"> </div>
+                    </div>
+
+  <div class="block7__list">
+    <ul>
+      
+               <li><a href="remont-holodilnikov.html">Ремонт холодильников</a></li>
+              <li><a href="remont-kofemashin-kofevarok.html">Ремонт кофемашин</a></li>
+               <li><a href="remont-stiralnyh-mashin.html">Ремонт стиральных машин</a></li>
+              <li> <a href="remont-posydomoechnih-mashin.html">Ремонт посудомоечных машин</a></li>
+              <li> <a href="remont-vinnyh-shkafov.html">Ремонт винных шкафов</a></li>
+              <li> <a href="remont-duhovyh-shkafov.html">Ремонт духовых шкафов</a></li>
+              <li> <a href="remont-mikrovolnovyh-pechej.html">Ремонт микроволновых печей</a></li>
+              <li> <a href="remont-parovarok.html">Ремонт пароварок</a></li>
+               <li><a href="remont-sushilnyh-mashin.html">Ремонт сушильных машин</a></li>
+               <li><a href="remont-vytyazhek.html">Ремонт вытяжек</a></li>
+               <li><a href="remont-varochnyh-poverhnostej.html">Ремонт варочных поверхностей</a></li>
+               <li><a href="remont-gladilni-mashin.html">Ремонт гладильных машин</a></li>
+       
+    </ul>
+    
+</div>
+
+         </div>
+                    
+                
+
+<div class="col-md-4 col-sm-12">
+                   
+                    <div class="block7__title">
+                        <p class="font-weight-bold t_white">
+Контакты</p>
+                        <div class="hr_white bg-white"> </div>
+                    </div>
+
+
+      <div class="block7__list">
+    <ul>
+      
+          
+             <li><img src="img/4200779-16.png" alt=""><a href="">адрес м. Київ </a></li>
+               <li><img src="img/4200779-16.png" alt=""><a href="">вул жилянська 107</a></li>
+              <li> <img src="img/2849835-16.png" alt=""><a href="">+38 098 567 14 22</a></li>
+              <li><img src="img/2849835-16.png" alt=""> <a href="">+38 098 567 15 98</a></li>
+              <li> <img src="img/3586360-16.png" alt=""><a href="">service7000@ukr.net</a></li>
+             
+       
+                 </ul>
+    
+
+              </div>
+                </div>
+
+
+
+
+
+                    
+            
+                
+
+           
+            
+
+
+            </div>
+           </div>
+    </div>
+
+ <div class="footer__end">
+             <div class="hr_white bg-white"> </div>
+             <div class="t_white container footer__end__text">
+© 2020 Ремонт техники MIELE в Киеве          </div>
+
+
+             </div>
+
+</div>
+
+</footer>
+
+
+
+ <!-- forms --------------------------- s -->
+
+ <!-- forms111111 --------------------------- s -->
+<div class="b-popup" id="popup1">
+    <div class="b-popup-content">
+        <div class="close d-flex justify-content-end "> <a class="btn t_black" href="javascript:PopUpHide()">X</a></div>
+
+     <form class="row" action= "post.php" method= "POST">
+          <div class="d-flex justify-content-center font-weight-bold col-12"><p>ПОДАТЬ ЗАЯВКУ НА РЕМОНТ</p></div>
+          <hr class="col-12">
+   <div class="col-md-12 col-sm-12 ">  
+<div class="row justify-content-between">
+  <div class="form-group col-md-4 col-sm-12 mb-5">
+    <input type="text" class="form-control" id="exampleInputEmail1" name="name" aria-describedby="emailHelp" placeholder="Ваше Имя*">
+  </div>
+   <div class="form-group col-md-4 col-sm-12 mb-5">
+    <input type="phone" class="form-control" id="exampleInputEmail1"name="tell" aria-describedby="emailHelp" placeholder="Телефон* " data-inputmask="'mask': '(999)999-9999'">
+  </div>
+   <div class="form-group col-md-4 col-sm-12 mb-5">
+    <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="E-mail*">
+  </div>
+  </div> 
+</div>
+  <div class="form-group col-12">
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="4" placeholder="Опишите Вашу проблему*"></textarea>
+
+  </div>
+
+
+
+  <div class="col-sm-12 col-md-12 d-flex justify-content-center"> 
+   <input type= "submit"class="btn mt-3 font-weight-bold br_darck t_white h_light bg_black" name="submit1" value= "Подать заявку"> 
+</div>
+
+</form>
+   
+    </div>
+</div>
+
+<!-- forms222222 --------------------------- s -->
+<!-- <div class="b-popup" id="popup2">
+    <div class="b-popup-content">
+        <div class="close d-flex justify-content-end "> <a class="btn t_black" href="javascript:PopUpHide2()">X</a></div>
+
+     <form class="row">
+          <div class="d-flex justify-content-center font-weight-bold col-12"><p class="text-uppercase">Получить консультацию</p></div>
+          <hr class="col-12">
+   <div class="col-md-12 col-sm-12 ">  
+<div class="row justify-content-between">
+  <div class="form-group col-md-5 col-sm-12 mb-5">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше Имя*">
+  </div>
+   <div class="form-group col-md-5 col-sm-12 mb-5">
+    <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Телефон* " data-inputmask="'mask': '(999)999-9999'">
+  </div>
+  </div> 
+</div>
+  <div class="form-group col-12">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Опишите Вашу проблему*"></textarea>
+
+  </div>
+
+
+
+  <div class="col-sm-12 col-md-12 d-flex justify-content-center"> 
+    <a href="#" class="btn mt-3 font-weight-bold br_darck t_white h_light bg_black text-uppercase">Получить консультацию</a>
+</div>
+
+</form>
+   
+    </div>
+</div> -->
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script >
+      $(function(){
+
+  $('.header-burger').click(function(){
+    console.log('hti');
+    $(this).toggleClass('__active');
+    $('.header-nav').toggleClass('__active');
+  });
+
+  $('.megamenu > a').click(function(){
+    $(this).toggleClass('__active');
+    $(this).next('.megamenu-levelone').slideToggle();
+    console.log('lvl1');
+  });
+});
+
+$(function(){
+  $('.megamenu-levelone > li > a').click(function(){
+    $(this).next('.megamenu-leveltwo').slideToggle();
+    console.log('lvl2');
+  });
+});
+
+// forms 1 -------------
+$(document).ready(function(){
+    PopUpHide();
+    PopUpHide2();
+    
+});
+function PopUpShow(){
+    $("#popup1").show();
+}
+function PopUpHide(){
+    $("#popup1").hide();
+}
+// forms 2 -------------
+function PopUpShow2(){
+    $("#popup2").show();
+}
+function PopUpHide2(){
+    $("#popup2").hide();
+}
+// forms 3 -------------
+
+
+
+
+
+
+    </script>
+
+</body>
+</html> 
